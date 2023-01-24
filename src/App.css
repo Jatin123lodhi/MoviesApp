@@ -1,38 +1,64 @@
-.App {
+ .my_navbar{
+  padding: 10px;
+  border: 5px groove #4064AC ;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin:10px;
+  margin-top: 20px;
+ }
+  
+ .my_navbar > span{
+  margin-top: 10px;
+  margin-right: 10px;
+ }
+.banner{
+  margin: 30px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.banner > img{
+  width: 60%;
+  height: 400px;
+}
+
+.title{
+  margin-top: -200px
+}
+
+.body > div{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+.body > h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.favourite{
+  margin-top: 20px;
+  padding: 20px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.movie_card {
+  width: 200px;
+  height: 410px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.movie_card > button{
+  position: absolute;
+  bottom: 50px;
+  left: 10%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movie_card > a > img{
+  width: 100%;
 }
